@@ -1,0 +1,354 @@
+.no-mp
+{
+	margin: 0px!important;
+	padding: 0px!important;
+	
+
+}
+.login-blk
+{
+    background-image: url('./assets/img/loginpage.png');
+	background-position: center;
+    background-size: cover;
+    position: fixed;
+	width: 100%;
+	height: 100%;
+	padding-top: 100px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+
+
+}
+.tringle
+{
+	width: 250px;
+	height: 250px;
+	border-top: 100px solid transparent;
+	border-right: 250px solid #e35e6a;
+	border-bottom: 100px solid transparent;
+	position: absolute;
+	overflow-y: hidden;
+	right: 30px;
+	top: -20px;
+
+	-ms-transform: rotate(80deg); /* IE 9 */
+  	transform: rotate(80deg);
+}
+.circle
+{
+	height: 250px;
+  width: 250px;
+  background-color: #fbc940;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 0px;
+
+}
+.login-area
+{
+	background-color: #fff;
+	width: 100%;
+	height: 600px;
+	z-index: 99999;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px #38383878;
+
+
+}
+.signin-blk
+{
+	/* background: linear-gradient(90deg, rgba(58,167,174,1) 0%, rgba(56,183,143,1) 100%); */
+	width: 100%;
+	height: 600px;
+	border-radius: 10px 0px 0px 10px;
+}
+.signin-blk
+{
+	color: #cb5252;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 20%;	
+	
+}
+.signin-blk h2
+{
+	font-family: helvetica;
+	font-weight: bold;
+}
+.signin-blk p
+{
+	font-size: 14px;
+	color: #1b1c1c;
+}
+.signintext
+{
+	text-align: center;
+	padding-top: 20%;
+}
+.inputinfo
+{
+	background-color: #f0f4f3;
+    width: 70%;
+    height: 40px;
+    padding-left: 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-left: 5px solid #3aaaa8;
+}
+.inputinfobtn
+{
+    background-color: #3aaaa8;
+    padding: 5px 60px;
+    border-radius: 5px;
+    border: 1px solid #38b78f;
+    color: #fff;
+    margin-top: 10px;
+
+}
+.forgentpass
+{
+	border: none;
+	background-color: transparent;
+	outline: none;
+	cursor: pointer;
+	color: #007eff;
+	font-weight: 600;
+}
+.forget-password
+{
+	display: none;
+}
+.forgentpass:hover
+{
+	text-decoration: underline;
+}
+.inputinfo:focus
+{
+	outline: none;
+}
+.myalert {
+    padding: 10px 0px;
+    margin-right: 50px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+
+
+.feedback-box
+{
+	
+}
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+.table-log table
+{
+	height: 100vh;
+
+}
+.btn-view {
+    background-color: #4389e1;
+    border: none;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 10px;
+    border-radius: 3px;
+
+}
+.btn-view:hover {
+    background-color: #ffd400;
+    color: #000;
+    border: 1px solid #b7b7b7;
+}
+.mail-view-blk
+{
+	    background-color: #00c4ff14;
+    
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.addcan-form {
+    background-color: #117a8b;
+    padding: 50px 50px 20px 50px;
+    margin: 30px 50px 15px 40px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px dimgrey;
+}
+.feedsub
+{
+	color: #0e587b;
+	font-weight: bold;
+}
+.textarefeed {
+    overflow-y: scroll;
+    height: 150px;
+    resize: none;
+    background: #d4e1dc;
+    border: none;
+    padding-top: 20px;
+    padding-left: 20px;
+	width:100%;
+    }
+    input.inputinfobtn {
+    outline: none;
+    transition: .5s;
+}
+input.inputinfobtn:hover
+{
+	background-color: #3aa7ad;
+	
+	border-color: #3aa7ad;
+}
+
+.alert-success,.alert-danger,.alert-warning
+{
+	padding: 4px 10px;
+    border-radius: 25px;
+    width: 80%;
+    margin: auto;	
+}
+.table-bordered thead td
+{
+	font-size: 12px;
+}
+
+tbody {
+    display: block;
+    height: 500px;
+    /* overflow-y: scroll; */
+    overflow-x: hidden;
+}
+thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;/* even columns width , fix width of table too*/
+}
+thead {
+    width: calc( 100% - 0em )/* scrollbar is average 1em/16px width, remove it from thead width */
+}
+table {
+    width: 200px;
+}
+.btn-asc
+{
+	background-color: red;
+}
+.btn-asc {
+    background-color: #ecc139;
+    color: #000;
+    padding: 2px 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-gen
+{
+    background-color: #0587b9;
+    border: none;
+    color: #fff;
+    padding: 2px 10px;
+    font-size: 10px;
+    border-radius: 3px;
+}
+.custom-switch {
+    padding-left: 2.25rem;
+}
+.custom-control {
+    position: relative;
+    z-index: 1;
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5rem;
+  text-align: center
+}
+.custom-control-input {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 1rem;
+    height: 1.25rem;
+    opacity: 0;
+}
+.delbtn
+{
+      background-color: #d72a20;
+    border: none;
+    float: right;
+    padding: 5px 40px;
+    border-radius: 4px;
+    color: #fff;
+  transition:0.5s;
+}
+.delbtn:hover
+{
+  background-color:#000;
+  color:#fff;
+}
+.myDIV img
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 15%;
+    right: 0.5%;
+    cursor: pointer;
+}
+.myhide
+{
+    width: 130px;
+    display: none;
+    background: linear-gradient(150deg, rgba(56,183,143,1) 0%, rgba(22,150,146,1) 100%);
+    padding: 5px;
+    position: absolute;
+    bottom: 25%;
+    right: 0.5%;
+    border-radius: 4px;
+}
+.myhide ul
+{
+    list-style: none;
+    padding-left: 0px;
+
+}
+.myhide ul li a
+{
+    background-color: #0c918c;
+    margin-bottom: 4px;
+    padding-left: 8px;
+    color: #d7ebeb;
+    display: block;
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.quick-feedback
+{
+    background-color: #38b790;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: -70px!important;
+    margin-left: 40px;
+}
+.thank-you
+{
+    background-color: #38b790;
+    padding: 40px;
+    border-radius: 10px;
+   
+    margin-left: 40px;
+}
